@@ -16,5 +16,6 @@ function resultado()
     {
         alert("ingrese su numero de telefono en el campo requerido");
     }
+    
     document.getElementById("resultado1").innerHTML = nomb1 + " " + apell + " su turno ha sido guardado, pronto sera notificado a traves de su numero: " + tel;
 }

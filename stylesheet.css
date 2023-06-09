@@ -1,3 +1,5 @@
+*{background-color: greenyellow;}
+
 #titulo
 {
     text-align: center;
@@ -44,4 +46,11 @@ img_4
 {
     display: flex;
     justify-items: right;
+}
+
+form
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
