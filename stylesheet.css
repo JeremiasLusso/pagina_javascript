@@ -1,0 +1,47 @@
+#titulo
+{
+    text-align: center;
+}
+
+#img_1{
+    float: left;
+}
+
+#img_2{
+    float: right;
+    align-items: center;
+}
+
+#parrafo_1{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.parrafos{
+    margin: 10px;
+}
+
+#parrafo_3
+{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#img_3
+{
+    float: left;
+}
+
+img_4
+{
+    float: right;
+    align-items: center;
+}
+
+#Pedir_turno
+{
+    display: flex;
+    justify-items: right;
+}

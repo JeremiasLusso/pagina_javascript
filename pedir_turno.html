@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turnos canchas</title>
+    <script src="./funciones_practico.js"></script>
+</head>
+<body>
+    <h1>SACA TU TURNO</h1>
+    <button onclick="location.href='index.html'" id="Volver">Volver</button>
+    <hr color="black">
+    <form>
+        <span>Coloque su nombre: </span>
+        <input type="text" id="nombre1" name="nombre1" placeholder="Aqui"><br>
+    <span>Coloque su apellido: </span>
+    <input type="text" id="apellido" name="apellido" placeholder="Aqui"><br>
+    <span>Coloque su numero de telefono: </span>
+    <input type="text" id="telefono" name= "telefono" placeholder="Aqui"><br>
+    <span>Que dia desea jugar: </span>
+    <select id="dia">
+        <option value="1">Lunes</option>
+        <option value="2">Martes</option>
+        <option value="3">Miercoles</option>
+        <option value="4">Jueves</option>
+        <option value="5">Viernes</option>
+    </select>
+    <select name="hora" id="hora">
+        <option value="14.00">14.00</option>
+        <option value="15.00">15.00</option>
+        <option value="16.00">16.00</option>
+        <option value="17.00">17.00</option>
+        <option value="18.00">18.00</option>
+        <option value="19.00">19.00</option>
+        <option value="20.00">20.00</option>
+    </select>
+    <br><span>Tamanio de la cancha:</span>
+    <br><span>Cancha de 7</span>
+    <input type="radio" name="tipo_cancha" id="Cancha" value="Cancha_7">
+    <br><span>Cancha de 9</span>
+    <input type="radio" name="tipo_cancha" id="Cancha" value="Cancha_9">
+    <br><span>Cancha de 11</span>
+    <input type="radio" name="tipo_cancha" id="Cancha" value="Cancha_11">
+    <br><br>
+    
+    <button type="button" onclick="resultado()">Solicitar</button>
+</form>
+<div id="resultado1"></div>
+</body>
+</html>
