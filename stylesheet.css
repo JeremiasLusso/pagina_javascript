@@ -50,7 +50,24 @@ img_4
 
 form
 {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+
+        display: block;
+        width: fit-content;
+        margin: auto;
+        align-items: center;
+}
+
+.texto
+{
+    background-color:  white;
+}
+
+.option
+{
+    background-color: white;
+}
+
+button
+{
+    background-color: white;
 }
